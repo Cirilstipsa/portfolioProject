@@ -1,6 +1,16 @@
 $primary-color: #444;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $primary-color;
   color: #ffff;
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
 }
+
+// Headings
